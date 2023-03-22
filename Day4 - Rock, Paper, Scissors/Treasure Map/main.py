@@ -8,12 +8,12 @@ position = input("Where do you want to put the treasure? ")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this row 👇
-column = int(position[0])
-row = int(position[1])
+row = int(position[0])
+column = int(position[1])
 
 
-placed_treasure = map[row]
-placed_treasure[column - 1]= "X"
+placed_treasure = map[column - 1]
+placed_treasure[row - 1]= "X"
 
 
 
